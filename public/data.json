@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Web Developer Dark",
+    "content": "This project is a responsive portfolio website. It is developed with HTML5, SCSS and Javascript and created with component file structure. You can display your areas of interest, your projects, your level of education, your skills, your experiences, and your interviews on the site. You can publish your old customers and instant pricing for your sales. You can share your blog posts and interact with your customers.",
+    "github": "https://github.com/OmerYargi/omeryargi.github.io",
+    "webSite": "https://omeryargi.github.io/"
+  },
+  {
+    "id": 2,
+    "name": "Web Developer Light",
+    "content": "This project is a responsive portfolio website. It is developed with HTML5, CSS3. You can display your areas of interest, your projects, your services and your experiences on the site. You can share your articles posts and interact with your customers.",
+    "github": "https://github.com/OmerYargi/myfirstwebsite.github.io",
+    "webSite": "https://omeryargi.github.io/myfirstwebsite.github.io/"
+  },
+  {
+    "id": 3,
+    "name": "Calculator",
+    "content": "This project is a Windows 10 dark mode calculator. It is a developed with HTML5, CSS3, JavaScript",
+    "github": "https://github.com/OmerYargi/win10calc.github.io",
+    "webSite": "https://omeryargi.github.io/win10calc.github.io/"
+  },
+  {
+    "id": 4,
+    "name": "Movie App",
+    "content": "This project is a responsive Movie Application on website.",
+    "github": "https://github.com/OmerYargi/MovieApp.github.io",
+    "webSite": "https://omeryargi.github.io/MovieApp.github.io/"
+  }
+]

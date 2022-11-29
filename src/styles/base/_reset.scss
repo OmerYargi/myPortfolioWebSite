@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bgc;
+    color: $clr1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $gradient1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: $clr1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

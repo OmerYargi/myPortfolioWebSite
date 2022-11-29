@@ -1,0 +1,31 @@
+#container {
+    color: $clr1;
+    height: 800px;
+    margin: auto;
+    padding: 3rem;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 0;
+        top: 0;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-image: $gradient10 30 stretch;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        bottom: 0;
+        right: 0;
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+        border-image: $gradient10 30 stretch;
+    }
+}

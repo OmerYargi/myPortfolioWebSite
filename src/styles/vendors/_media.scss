@@ -1,0 +1,113 @@
+@media screen and (max-height: 800px) {
+    #container {
+        height: 100vh;
+    }
+}
+
+// *************************************************************
+@media screen and (max-width: 575px) {
+    #container {
+        padding: 1rem;
+
+        #top-bar {
+            flex-wrap: nowrap;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            ul {
+                li {
+                    &:last-child {
+                        width: 50px;
+
+                        img {
+                            width: 20px;
+                            margin-left: 3px;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    a {
+                        padding: 0;
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+
+        #project {
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+
+            .project-content {
+                h2 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .project-menu {
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+// *************************************************************
+@media screen and (max-width: 910px) {
+    #container {
+        height: initial;
+
+        #project {
+            @include flex($direction: column, $ai: flex-start);
+            padding-left: 2rem;
+            margin-top: 2rem;
+
+
+            .project-content {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+
+            .project-menu {
+                width: 100%;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    #project {
+        padding-left: 1rem;
+
+
+        .project-content {
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .project-menu {
+            h3 {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+// *************************************************************
+@media screen and (max-width: 1300px) {
+    #container {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #container {
+        width: 1300px;
+    }
+}

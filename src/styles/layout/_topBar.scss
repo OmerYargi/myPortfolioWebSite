@@ -1,0 +1,42 @@
+#top-bar {
+    @include flex($jc: space-between);
+
+    ul {
+        @include flex();
+
+        li {
+            cursor: pointer;
+            padding: 0 1rem;
+            @include flex();
+
+            &:last-child {
+                background-color: $clr2;
+                border-radius: 1rem;
+                width: 60px;
+                overflow: hidden;
+
+                @include transition(all, .3);
+
+                &:hover {
+                    width: 100px;
+
+                    a {
+                        color: $bgc;
+
+                    }
+                }
+            }
+
+            a {
+                color: $clr2;
+                font-size: 2rem;
+                height: 2rem;
+
+
+                img {
+                    width: 1.8rem;
+                }
+            }
+        }
+    }
+}
