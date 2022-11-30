@@ -26,5 +26,11 @@
     "content": "This project is a responsive Movie Application on website.",
     "github": "https://github.com/OmerYargi/MovieApp.github.io",
     "webSite": "https://omeryargi.github.io/MovieApp.github.io/"
+  },
+  {
+    "id": 5,
+    "name": "Movie App Redux",
+    "content": "This project is a responsive Movie Application on website. It is developed with React and Redux Toolkit. This project have a json file on json-server.",
+    "github": "https://github.com/OmerYargi/movieAppWithReactRedux"
   }
 ]
